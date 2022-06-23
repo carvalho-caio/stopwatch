@@ -1,0 +1,89 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Mukta', sans-serif;
+    color: #333;
+    font-size: 2rem;
+}
+
+body
+{
+    background: linear-gradient(to right, #BFABCB, #E6C0E9);
+}
+
+header
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.temporizador
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+.painel
+{
+    display: flex;
+    justify-content: center;
+}
+
+button
+{
+    margin: 15px;
+    padding: 8px;
+    font-size: 1.3rem;
+    background: transparent;
+    border-radius: 40px;
+    border: 3px solid white;
+    box-shadow: 05px 5px 5px black;
+}
+
+button:hover
+{
+    box-shadow: none;
+}
+
+.chatao
+{
+    position: absolute;
+    bottom: 0;
+    margin-left: 5px;
+    box-sizing: border-box;
+}
+
+.feito
+{
+    font-size: 10px;
+}
+
+.autor
+{
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+}
+
+.timer
+{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.timer:hover
+{
+    border-color: transparent;
+}
